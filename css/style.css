@@ -7,6 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     width: 1440px;
+    margin: auto;
 }
 
 /*-----------------
@@ -166,4 +167,73 @@ footer .social-icon{
 }
 .copy{
    padding-left:115px ;
+}
+/*---------------
+ Media Queries
+ --------------- */
+
+ /* Mobile Devices */
+ @media only screen and (max-width:688px) {
+    header{
+         grid-template-columns: repeat(1, 1fr);
+         display: grid;
+    }
+    header h1{
+         font-size: 36px;
+         padding-left: 16px;
+    }
+     header img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .main-section{
+         
+         grid-template-columns: repeat(1, 1fr);
+         margin:auto ;
+         width: 100%;
+    }
+    .project{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        width: 100%;
+        margin:auto ;
+    }
+    .project img{
+        width: 328px;
+        height: 248px;
+        margin-left:10px ;
+        margin-bottom: 20px;
+    }
+    .project-details{
+        width: 290px;
+        height: 248px;
+        margin:5px 10px 10px 20px ;
+        padding: 10px;
+    }
+    .project-title{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    footer{
+        margin: auto;
+        width: 100%;
+    }
+    footer img{
+        width: 300px;
+        height: 70px;
+        margin-top: 30px;
+    }
+    .social{
+        font-size: 10px;
+    }
+    .social-icon{
+        margin-top: 4px;
+        margin-bottom: 13px;
+        padding-left: 76px;
+    }
+    .copy{
+        padding-left:70px ;
+        font-size: 12px;
+        margin-top: 5px;
+     }
 }
