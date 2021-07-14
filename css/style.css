@@ -210,6 +210,11 @@ footer .social-icon{
         margin:5px 10px 10px 20px ;
         padding: 10px;
     }
+    .project-details:hover{
+        transform: scale(0.7);
+        transition: transform 1s ease-in-out;
+        color: rgb(27, 99, 170);
+    }
     .project-title{
         margin-top: 0;
         margin-bottom: 5px;
@@ -226,10 +231,10 @@ footer .social-icon{
     .social{
         font-size: 10px;
     }
-    .social-icon{
+    footer .social-icon{
         margin-top: 4px;
         margin-bottom: 13px;
-        padding-left: 76px;
+        padding-left: 62px;
     }
     .copy{
         padding-left:70px ;
@@ -237,3 +242,9 @@ footer .social-icon{
         margin-top: 5px;
      }
 }
+ /* table Devices */
+
+
+ @media only screenc and (min-width:689px) and (max-width:991px) {
+     
+ }
