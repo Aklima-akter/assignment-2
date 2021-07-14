@@ -23,7 +23,7 @@ header{
 }
 header:hover{ 
     background-image: url("/images/match.png");
-    transform:scale(1, 1) skew(-30deg);
+    transform:scale(1.1);
     transition: transform 1s ease-in-out;
 }
 header h1{
@@ -103,6 +103,35 @@ article:hover{
     margin: auto;
 }
 /* Main Section End */
+
+
+
+ /* -----------------
+ Bonus section
+-------------- */
+.project{
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-around;
+}
+.project-img{
+    width: 400px;
+}
+.project-img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.project-details:hover{
+    transform: scale(0.7);
+    transition: transform 1s ease-in-out;
+    color: rgb(27, 99, 170);
+}
+.project-details{
+    width: 500px;
+    box-shadow: 10px 10px 20px 10px  #f2f2f2;
+    padding: 50px 15px 0 20px;
+    border-radius: 15px;
+}
 
 
 
